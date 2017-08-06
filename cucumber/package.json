@@ -1,0 +1,40 @@
+{
+  "name": "steam-test",
+  "version": "0.0.3",
+  "description": "just one feature",
+  "main": "config.js",
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "chai-as-promised": "^6.0.0",
+    "child-process-promise": "^2.1.3",
+    "cucumber": "^1.3.1",
+    "gulp": "^3.9.1",
+    "gulp-protractor": "^3.0.0",
+    "gulp-util": "^3.0.7",
+    "protractor": "^4.0.9",
+    "protractor-cucumber-framework": "^0.6.0",
+    "run-sequence": "^1.2.2",
+    "webdriver-manager": "^10.2.5"
+  },
+  "scripts": {
+    "postinstall": "node_modules\\.bin\\webdriver-manager update"
+  },
+  "author": "Mark Naumenko",
+  "license": "ISC",
+  "directories": {
+    "test": "tests"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mark-naumenko/pageobject-cuc.git"
+  },
+  "keywords": [
+    "protractor",
+    "cucumber",
+    "framework"
+  ],
+  "bugs": {
+    "url": "https://github.com/mark-naumenko/pageobject-cuc/issues"
+  },
+  "homepage": "https://github.com/mark-naumenko/pageobject-cuc#readme"
+}

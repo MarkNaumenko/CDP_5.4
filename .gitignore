@@ -1,0 +1,4 @@
+.idea
+jasmine/node_modules
+cucumber/node_modules
+screenshots/

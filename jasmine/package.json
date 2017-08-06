@@ -1,0 +1,14 @@
+{
+  "name": "CDP_5.4",
+  "version": "0.0.1",
+  "scripts": {
+    "start": "protractor protractor.debug.conf.js"
+  },
+  "dependencies": {
+    "cms-acceptance-tests": "git+ssh://git@github.com:MSMFG/cms-acceptance-tests.git#develop",
+    "dotenv": "^4.0.0",
+    "log4js": "~0.6.15",
+    "protractor": "^5.1.0",
+    "protractor-jasmine2-screenshot-reporter": "^0.4.0"
+  }
+}
